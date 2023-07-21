@@ -16,7 +16,7 @@
     max-width: 108px;
 }
 
-.home__name{
+.home__name {
     font-size: var(--h1-font-size);
     font-weight: var(--font-bold);
     margin: 1.5rem 0;
@@ -33,6 +33,10 @@
     color: var(--title-color);
     font-size: 1.3rem;
     transition: .3s;
+}
+
+.btn {
+    background: var(--first-color)
 }
 
 .home__social-link:hover {
@@ -150,12 +154,18 @@
     top: 10%;
 }
 
-.s10    {
+.s10 {
     top: 45%;
     right: 11%;
 }
 
-.s11    {
+.s11 {
     bottom: 10%;
     right: 2%;
+}
+
+@media screen and (max-width: 1024px) {
+    .home__social-link {
+        font-size: 1.125rem;
+    }
 }

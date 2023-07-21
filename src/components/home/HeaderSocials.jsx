@@ -7,7 +7,7 @@ const HeaderSocials = () => {
         <i class="fa-brands fa-github"></i>    
         </a>
 
-        <a href="https://www.linkedin.com/in/lucas-gabriel-nascimento-dos-santos/" className="home__social-link" target="_blank">
+        <a href="https://www.linkedin.com/in/lucas-gabe/" className="home__social-link" target="_blank">
         <i class="fa-brands fa-linkedin"></i>    
         </a>
 

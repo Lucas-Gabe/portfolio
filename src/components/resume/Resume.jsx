@@ -10,7 +10,7 @@ const Resume = () => {
       <h2 className="section__title">Experience</h2>
 
       <div className="resume__container grid">
-        <div className="timeline grid">
+        <div className="timeline grid timeline__text">
           {Data.map((val, id) => {
             if (val.category === "education") {
               return (
