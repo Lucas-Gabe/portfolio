@@ -13,7 +13,7 @@
 }
 
 .work__item:hover {
-    color: var(--first-color);
+    color: hsl(43, 100%, 68%);
 }
 
 .work__container {

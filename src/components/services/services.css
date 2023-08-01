@@ -1,6 +1,7 @@
 .services__container {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 350px);
     column-gap: 1.875rem;
+    justify-content: center;
 }
 
 .services__card {

@@ -38,6 +38,7 @@
     writing-mode: vertical-rl;
 }
 
+
 .nav__toggle {
     position: fixed;
     top: 1.25rem;
@@ -53,6 +54,7 @@
     z-index: 1;
     transition: .3s;
 }
+
 
 @media screen and (max-width: 1024px) {
     .aside {

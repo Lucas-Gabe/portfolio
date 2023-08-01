@@ -25,6 +25,20 @@
   --border-radius: 20px;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--first-color);
+  border-radius: var(--border-radius)
+}
+
+::-webkit-scrollbar-track {
+
+}
+
 @keyframes button-push {
   50% {
     transform: scale(0.8);
@@ -140,7 +154,7 @@ img {
   border: 1px solid transparent;
   display: inline-block;
   color: #fff;
-  background: var(--first-solor);
+  background: var(--first-color);
   font-weight: var(--font-bold);
 }
 

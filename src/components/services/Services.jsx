@@ -10,22 +10,15 @@ const data = [
     image: Image1,
     title: "UI/UX design",
     description:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+      "Sometimes I venture into UI/UX. (but just for fun, like this portfolio)",
   },
   {
     id: 2,
     image: Image2,
     title: "Web Development",
     description:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
-  },
-  {
-    id: 3,
-    image: Image3,
-    title: "Photography",
-    description:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
-  },
+      "I've always been a passionate developer. Since I was 11, my toy was an Arduino (I smiled every time I fixed a bug myself). And since then I've been studying more assiduously.",
+  }  
 ]
 
 const Services = () => { 

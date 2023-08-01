@@ -3,6 +3,10 @@
     column-gap: 1.875rem;
 }
 
+.about__info {
+   text-align: center;
+}
+
 .about__data {
     padding: 1.875rem;
     background: var(--container-color);
@@ -69,7 +73,7 @@
 }
 
 .ui__design {
-    width: 80%;
+    width: 75%;
     background: rgb(255, 92, 92);
 }
 
@@ -87,6 +91,15 @@
     grid-template-columns: repeat(4, 1fr);
     column-gap: 1.875rem;
     margin-top: 4.35rem;
+}
+
+.about__title:hover::after {
+    content: 'Ficticional numbers';
+    font-size: .4rem;
+    margin-left: 2px;
+    position: absolute;
+    top: 100%;
+    left: 25%;
 }
 
 .about__box {

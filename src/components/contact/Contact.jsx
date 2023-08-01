@@ -12,25 +12,35 @@ const Contact = () => {
           <p className="contact__details">Don't like forms? Send me an email. 👋</p>
         </div>
 
-          <form action="" className="contact__form">
+          <form action="https://formsubmit.co/fa44464bb78502e33968498fc13c4445" className="contact__form" method='POST'>
             <div className="contact__form-group">
               <div className="contact__form-div">
-                <input type="text" className="contact__form-input" placeholder='Insert your name'/>
+                <input type="text" className="contact__form-input" id='name' name='name' required/>
+                <label htmlFor="name">Insert your name</label>
               </div>
 
               <div className="contact__form-div">
-                <input type="email" className="contact__form-input" placeholder='Insert your email'/>
+                <input type="email" className="contact__form-input" name="email" id='email' required/>
+                <label htmlFor="email">Insert your email</label>
               </div>
 
               <div className="contact__form-div">
-                <input type="text" className="contact__form-input" placeholder='Insert your subject'/>
+                <input type="text" className="contact__form-input" id='subject' name='_subject' required/>
+                <label htmlFor='subject'>Insert your subject</label>
               </div>
 
               <div className="contact__form-div contact__form-area">
-                <textarea name="" id="" cols="30" rows="10" className='contact__form-input' placeholder='Write your message'></textarea>
+                <textarea cols="30" rows="10" className='contact__form-input' id='message' name='message' required></textarea>
+                <label htmlFor="message">Write your message</label>
               </div>
 
-              <button className='btn'><a href = "mailto:mr.lucasgabriel@hotmail.com">Send Message</a></button>
+              <input type="hidden" name="_next" value="https://lucasgabe.com" />
+
+              <input type="hidden" name="_captcha" value="false" />
+
+              <input type="hidden" name="_template" value="table" />
+
+              <button className='btn'>Send me a message!</button>
             </div>
           </form>
         </div>

@@ -2,6 +2,7 @@ import React from 'react';
 import "./about.css";
 import Profile from '../../assets/me.png'
 import Aboutbox from './Aboutbox';
+import Curriculum from '../../assets/Lucas-Gabriel-Nascimento-dos-Santos-CV-Resume.pdf';
 
 const About = () => {
   return (
@@ -13,7 +14,7 @@ const About = () => {
         <div className="about__data grid">
           <div className="about__info">
             <p className="about__description">I'm Lucas Gabriel, web developer from Sergipe, Brazil. I have rich experience in web site design and building and customization, also I am good at CSS(PURE).</p>
-            <a href="#" className="btn">Download CV</a>
+            <a href={Curriculum} className="btn" download>Download CV</a>
           </div>
 
           <div className="about__skills grid">
@@ -32,7 +33,7 @@ const About = () => {
             <div className="skills__data">
               <div className="skills__titles">
                 <h3 className="skills__name">UI/UX design</h3>
-                <span className="skills__number">80%</span>
+                <span className="skills__number">75%</span>
               </div>
 
               <div className="skills__bar">
