@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.98e9fb1b.css",
-    "main.js": "/static/js/main.a8dcce5b.js",
+    "main.css": "/static/css/main.b2d0af2a.css",
+    "main.js": "/static/js/main.f9c6fdaf.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/logo.gif": "/static/media/logo.e5e9deafded86b793d3b.gif",
+    "static/media/logo.gif": "/static/media/logo.0b42c50658f75a59c8d3.gif",
+    "static/media/Lucas-Gabriel-Nascimento-dos-Santos-CV-Resume.pdf": "/static/media/Lucas-Gabriel-Nascimento-dos-Santos-CV-Resume.94a97e4dcb69e09d797e.pdf",
     "static/media/me.png": "/static/media/me.17797e49cda4e39cde51.png",
     "static/media/work-4.svg": "/static/media/work-4.b1e5c1341899ee00d86d6c613f593837.svg",
     "static/media/work-3.svg": "/static/media/work-3.f1d02dc63be36a2005f8d395ecb8b36c.svg",
@@ -16,12 +17,12 @@
     "static/media/service-2.svg": "/static/media/service-2.5c151f1353d4629154fbf0e537115128.svg",
     "static/media/dots-bg.svg": "/static/media/dots-bg.aa8289c51cd678b8cd47.svg",
     "index.html": "/index.html",
-    "main.98e9fb1b.css.map": "/static/css/main.98e9fb1b.css.map",
-    "main.a8dcce5b.js.map": "/static/js/main.a8dcce5b.js.map",
+    "main.b2d0af2a.css.map": "/static/css/main.b2d0af2a.css.map",
+    "main.f9c6fdaf.js.map": "/static/js/main.f9c6fdaf.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.98e9fb1b.css",
-    "static/js/main.a8dcce5b.js"
+    "static/css/main.b2d0af2a.css",
+    "static/js/main.f9c6fdaf.js"
   ]
 }
